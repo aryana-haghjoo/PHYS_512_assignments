@@ -1,0 +1,5 @@
+For this part, I checked two boundary conditions: Periodic and Reflection
+For the periodic one, as it is obvious, when a particle passed the boundaries, I changed the location to the other side of the boundary.
+For the reflection, when a particle passed the boundaries, I changed the sign of the force component which is vertical to the boundary to make it come back to the domain.
+Honestly, I did not see many differences, because of the nature of the force which is attractive and compresses the points so it's unlikely that a point passes the boundary. If we had a repulsive force, we could see a more significant effect.
+In the case of energy, the energy was better preserved with reflection. Because we do not change the position of the point (to change the potential energy) and also we do not change the absolute value of the velocity. Therfore, it preserves energy better that that of the periodic one.
